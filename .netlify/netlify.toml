@@ -1,0 +1,31 @@
+functionsDirectory = "/Users/dianamansurova/Desktop/программирование/Chris Courses/animations/netlify/functions"
+functionsDirectoryOrigin = "ui"
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/dianamansurova/Desktop/программирование/Chris Courses/animations/build"
+publishOrigin = "ui"
+base = "/Users/dianamansurova/Desktop/программирование/Chris Courses/animations"
+command = "npm run build"
+commandOrigin = "ui"
+functions = "/Users/dianamansurova/Desktop/программирование/Chris Courses/animations/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
